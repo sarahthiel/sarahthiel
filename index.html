@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://sarah-thiel.eu/"/>
+
+    <title>Sarah Thiel</title>
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+            font-size: 1em;
+            line-height: 1.5em;
+            text-decoration: none;
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: #3b4252;
+            color: #eceff4;
+            font-family: monospace;
+            font-size: 18px;
+        }
+
+        body {
+            display: grid;
+            height: 100%;
+            min-height: 100vh;
+            max-width: 80ch;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 3em;
+            grid-template-areas: "main" "footer";
+        }
+
+        body > * {
+            padding-left: 1em;
+        }
+
+        main {
+            grid-area: main;
+        }
+
+        footer {
+            grid-area: footer;
+            align-self: end;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: 0.5em 0 0 0;
+            color: #b48ead;
+            font-weight: bold;
+        }
+
+        a {
+            color: #b48ead;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #b48ead;
+        }
+
+        footer a {
+            color: #d8dee9;
+        }
+
+        header {
+            margin-bottom: 1em;
+        }
+        section{
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <header>
+        <h1>Sarah Thiel</h1>
+        <p>System Administrator / Web Developer</p>
+    </header>
+    <section class="contact">
+        <p>Mail: <a href="mailto:s@rah-thiel.de">s@rah-thiel.de</a></p>
+        <p>GPG: <a href="https://sarah-thiel.eu/key.asc" target="_blank">8640 CB5C 9628 73C2</a></p>
+    </section>
+    <section class="social">
+        <p>Github: <a href="https://github.com/SarahThiel" target="_blank">SarahThiel</a></p>
+        <p>Xing: <a href="https://www.xing.com/profile/Sarah_Thiel26/" target="_blank">Sarah Thiel</a></p>
+    </section>
+</main>
+<footer>
+    <p>(c)1987 - 2020 Sarah Thiel</p>
+</footer>
+</body>
+</html>
